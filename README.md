@@ -104,4 +104,6 @@ AWS Resources, Fortigate Firewall
 <img src="https://github.com/user-attachments/assets/23951884-54ac-403c-aaf7-6f6e3026146d"/>
 <br/> The three interfaces are now visible <br/>
 <img src="https://github.com/user-attachments/assets/87278361-1411-4655-9eef-b3cb4b3bd968"/>
+<br/> This can also be viewed from the CLI <br/> 
+<img src="https://github.com/user-attachments/assets/aae7ee24-6ad2-4a08-a26d-34ee81653dc8"/>
 <br/> That is how you deploy and configure fortinet on an AWS network <br/>
