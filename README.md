@@ -3,7 +3,7 @@
 <br/> In this demo we will deploy and configure a Fortigate Firewall in AWS
 <br />
 <br/> <br/>
-<img src="https://github.com/user-attachments/assets/972ba23c-7da4-4d6d-8882-c549b01e6350"/>
+<img src="https://github.com/user-attachments/assets/267108dd-2024-462c-82a4-199ad1d36387"/>
 
 
 <h2>Languages and Utilities Used</h2>
