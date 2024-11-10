@@ -3,7 +3,7 @@
 <br/> In this demo we will deploy and configure a Fortigate Firewall in AWS
 <br />
 <br/> <br/>
-<img src="https://github.com/user-attachments/assets/697be1e2-ba8d-411c-969f-c79712584eec"/>
+<img src="https://github.com/user-attachments/assets/972ba23c-7da4-4d6d-8882-c549b01e6350"/>
 
 
 <h2>Languages and Utilities Used</h2>
@@ -86,39 +86,22 @@ AWS Resources, Fortigate Firewall
 <img src="https://github.com/user-attachments/assets/f06fea18-7185-4ae7-8e25-c9e6a588dda3"/>
 <br/> Let's view our network interfaces <br/>
 <img src="https://github.com/user-attachments/assets/8df22f48-2178-4b2f-abf4-cdbd90e65852"/>
+<img src="https://github.com/user-attachments/assets/961c8ce7-6409-476c-bdb6-94e8f79e19f5"/>
 <br/> There is only one visible so we must return the EC2 in the AWS console and attach the network interfaces created <br/>
 <br/> Attach all of the created network interfaces <br/>
 <img src="https://github.com/user-attachments/assets/6bf3844e-d9dc-49af-907d-d46d48d769c2"/>
-<br/> Note: LAN40 will not be able to be attached because the Fortigate is not available as an option <br/>
+<br/> Note: LAN40 will not be able to be attached because the Fortigate is not available as an option. It will also not work for LAN50 because we can only attach network interfaces that are in the same availability zone. There would need to be a Fortigate Firewall per availability zone. <br/>
 <img src="https://github.com/user-attachments/assets/01bb396e-63fd-45fa-bca2-b53f6e4eb57f"/>
-<img src=""/>
-<img src=""/>
-<img src=""/>
 
-## Step 6: 
+<br/> Navigate to VPCs and view the resource map to view the current network <br/>
+<img src="https://github.com/user-attachments/assets/c55a1b35-39fe-4d50-8ef0-a0c2e6ef9d6e"/>
+<br/> LAN10 is mapped to a public route table. LAN20, 30, 40, and 50 are mapped to a private route table. Both route tables belong to the implicit router wich belongs to the internet gateway. <br/>
+<img src="https://github.com/user-attachments/assets/49a36207-445f-4839-87d9-342553c1f9af"/>
+<img src="https://github.com/user-attachments/assets/188e7da5-0695-4c19-b866-7b9225d51683"/>
 
-<img src=""/>
-<br/> <br/>
-<img src=""/>
-
-
-
-<br/> <br/>
-<img src=""/>
-<br/> <br/>
-<img src=""/>
-<br/> <br/>
-<img src=""/>
-<br/> <br/>
-<img src=""/>
-<br/> <br/>
-<img src=""/>
-<br/> <br/>
-<img src=""/>
-<br/> <br/>
-<img src=""/>
-<br/> <br/>
-<img src=""/>
-
-
-
+## Step 6: Configure the interfaces to fortigate
+<br/> To add the interfaces created in AWS to Fortigate click on them and select DHCP. <br/> 
+<img src="https://github.com/user-attachments/assets/23951884-54ac-403c-aaf7-6f6e3026146d"/>
+<br/> The three interfaces are now visible <br/>
+<img src="https://github.com/user-attachments/assets/87278361-1411-4655-9eef-b3cb4b3bd968"/>
+<br/> That is how you deploy and configure fortinet on an AWS network <br/>
