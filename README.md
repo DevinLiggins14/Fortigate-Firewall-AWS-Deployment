@@ -99,8 +99,8 @@ AWS Resources, Fortigate Firewall
 <img src="https://github.com/user-attachments/assets/49a36207-445f-4839-87d9-342553c1f9af"/>
 <img src="https://github.com/user-attachments/assets/188e7da5-0695-4c19-b866-7b9225d51683"/>
 
-## Step 6: Configure the interfaces to fortigate
-<br/> To add the interfaces created in AWS to Fortigate click on them and select DHCP. <br/> 
+## Step 6: Configure the interfaces to Fortigate
+<br/> To add the interfaces created in AWS to Fortigate click on them and select DHCP. It will pull the IP from AWS. <br/> 
 <img src="https://github.com/user-attachments/assets/23951884-54ac-403c-aaf7-6f6e3026146d"/>
 <br/> The three interfaces are now visible <br/>
 <img src="https://github.com/user-attachments/assets/87278361-1411-4655-9eef-b3cb4b3bd968"/>
