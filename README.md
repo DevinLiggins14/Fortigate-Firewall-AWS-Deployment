@@ -104,6 +104,10 @@ AWS Resources, Fortigate Firewall
 <img src="https://github.com/user-attachments/assets/23951884-54ac-403c-aaf7-6f6e3026146d"/>
 <br/> The three interfaces are now visible <br/>
 <img src="https://github.com/user-attachments/assets/87278361-1411-4655-9eef-b3cb4b3bd968"/>
+<br/> It can be confirmed that port 2 (LAN20) and port 3 (LAN30) have matching IPs (I will add the name for simplicity) <br/>
+<img src="https://github.com/user-attachments/assets/63d7b2e1-3705-4578-b20b-7a25695be74b"/>
+<img src="https://github.com/user-attachments/assets/c0f3fce1-b9a9-4b10-b789-fbb360068844"/>
+<img src="https://github.com/user-attachments/assets/289c316d-6716-43dc-aaf7-92601366fd48"/>
 <br/> This can also be viewed from the CLI <br/> 
 <img src="https://github.com/user-attachments/assets/aae7ee24-6ad2-4a08-a26d-34ee81653dc8"/>
 <br/> That is how you deploy and configure fortinet on an AWS network <br/>
