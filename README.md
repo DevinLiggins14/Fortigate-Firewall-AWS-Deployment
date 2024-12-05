@@ -1,6 +1,7 @@
 # Fortigate-Firewall-AWS-Deployment
 <h2>Description</h2>
-<br/> In this demo we will deploy and configure a Fortigate Firewall in AWS
+<br/> In this demo, we will deploy and configure a FortiGate Firewall in AWS. The setup includes creating a custom network by defining a VPC, and route tables, along with five subnets distributed across three availability zones. We will also configure network interfaces to be attached to the FortiGate EC2 instance, ensuring secure and scalable connectivity.
+
 <br />
 <br/> <br/>
 <img src="https://github.com/user-attachments/assets/267108dd-2024-462c-82a4-199ad1d36387"/>
